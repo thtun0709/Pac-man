@@ -224,9 +224,9 @@ function App() {
       {gameOver && (
         <div>
           <h2>Non ác!</h2>
-          <p>bạn đã đạt tới chương {chapter}, Màn{level}</p>
+          <p>bạn đã đạt tới chương {chapter}, Màn {level}</p>
           <p>Điểm tổng kết: {score}</p>
-          <button onClick={resetGame}>Try Again</button>
+          <button onClick={resetGame}>Thử lại</button>
         </div>
       )}
     </div>
