@@ -217,15 +217,15 @@ function App() {
           </div>
         ))}
       </div>
-      <p>Score: {score}</p>
-      <p>Chapter: {chapter}</p>
-      <p>Level: {level}</p>
-      <p>Use arrow keys to move</p>
+      <p>Điểm: {score}</p>
+      <p>Chương: {chapter}</p>
+      <p>Màn: {level}</p>
+      <p>Sài phím mũi tên nha :Đ</p>
       {gameOver && (
         <div>
           <h2>Non ác!</h2>
-          <p>You reached Chapter {chapter}, Level {level}</p>
-          <p>Final Score: {score}</p>
+          <p>bạn đã đạt tới chương {chapter}, Màn{level}</p>
+          <p>Điểm tổng kết: {score}</p>
           <button onClick={resetGame}>Try Again</button>
         </div>
       )}
