@@ -223,7 +223,7 @@ function App() {
       <p>Use arrow keys to move</p>
       {gameOver && (
         <div>
-          <h2>Game Over!</h2>
+          <h2>Non ác!</h2>
           <p>You reached Chapter {chapter}, Level {level}</p>
           <p>Final Score: {score}</p>
           <button onClick={resetGame}>Try Again</button>
